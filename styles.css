@@ -1,0 +1,38 @@
+body {
+    margin: 20px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.avatar {
+    width: 150px;
+    border: 2px solid #064789;
+}
+
+.info-border {
+    border: 2px solid #064789;
+    padding: 10px;
+}
+
+p:hover, h3:hover, h4:hover {
+    color: #064789;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    background: #427aa1;
+    color: #ebf2fa;
+    border-top: 10px solid #064789;
+    border-bottom: 10px solid #064789;
+    box-shadow: 6px 6px 5px lightblue;
+}
